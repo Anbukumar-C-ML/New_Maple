@@ -1,0 +1,22 @@
+
+/*New Changes*/
+.navbar-collapse{
+	flex-grow: inherit !important;
+}
+.banner_content_text h4  {
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.7px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.location_container{
+    padding: 20px 0px;
+}
+
+.location_container .col-md-3{
+    max-width: 20%;
+}
+li.active > a{
+    color: #007bff !important;
+}

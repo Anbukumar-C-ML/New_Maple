@@ -1,0 +1,12 @@
+- title: Home
+  link: /pages/home
+- title: Services
+  link: /pages/services
+# - title: Post
+#   link: /
+- title: About
+  link: /pages/about
+- title: Careers
+  link: /pages/careers
+- title: Get Started
+  link: /pages/getting_start
