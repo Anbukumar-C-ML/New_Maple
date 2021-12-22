@@ -31,6 +31,9 @@ body{
 .banner_content_text_new{
     background: #fff;
 }
+.banner_content_text_new .home_banner_inner_bg{
+        bottom: -300px;
+}
 .banner_content_text_new h4{
      font-size: 69px;
     line-height: 35px;
