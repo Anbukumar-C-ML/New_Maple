@@ -6,14 +6,23 @@
 	<meta name="description" content="{{page.meta}}" title='{{page.title}}'>
 </head>
 	<body> 
-		{% include header.html %} 
+		
+		{% include header.html %}
 		<section>
-			<div class="container"> 
+			<div class="clear"> 
 				{{content}}
 			</div>
 		</section>
+
+		<!-- 
+			include header_new.html 
+			{% include footer_new.html %} -->
+
+
 		{% include footer.html %}
 
 		{% include script.html %}
+
+	 
 	</body>
 </html>
