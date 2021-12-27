@@ -103,7 +103,8 @@ li.active > a{
 .section_title{
     font-size:  48px;
     color:  #222222; 
-    font-family: Poppins-Medium;
+    font-family: 'Poppins-SemiBold';
+    line-height: 62px;
     padding:  20px 0px;
 }
 .subscribe_Section{
@@ -119,6 +120,12 @@ p{
     font-size:  18px;
      font-family: Poppins-Light;
     color:  #252930;
+}
+nav.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
 }
 .new_header li:last-child a{
     width: 151px;
@@ -143,9 +150,12 @@ p{
 }
 .navbar-light .navbar-nav .nav-link { 
     line-height: 30px;
-    padding: 10px 15px;
+    padding: 10px 20px;
     color:  unset;
 }
+.navbar-light .navbar-nav li:last-child .nav-link{
+    margin-left:  20px;
+} 
 .casestudy_panel{
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
@@ -218,6 +228,7 @@ p{
     background: #F5F7FA ;
     padding: 30px 0px 125px 0px;
     position:  relative;
+    top: 65px;
 }
 .home_banner_bg_new{
     background:  #fff;
