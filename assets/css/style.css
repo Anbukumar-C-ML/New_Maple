@@ -212,7 +212,7 @@ p{
     /* width:  100%; */
 }
 .sectionPadding a img{
-    width:  unset;
+    width:  unset !important;
 }
 .home_banner_bg{
     background: #F5F7FA ;
@@ -306,12 +306,20 @@ p{
     .casestudy_panel img,
     .casestudy_top_bg img,
     .sectionPadding .col-md-6 img,
-    .banner_content_text .col-md-6 img{
+    .banner_content_text .col-md-6 img,
+    .banner_content_text_new .col-md-6 img{
         width: 100%;
     }
     .casestudy_panel{
         margin-bottom: 15px;
     } 
+    .casestudy_panel img{
+        height:  auto;
+    }
+    .home_section_rightbg{
+        right:  0px;
+        bottom:  -50px;
+    }
     .subscribe_Section {
         padding-bottom: 100px;
         padding-top: 100px;
@@ -323,8 +331,10 @@ p{
         text-align: center;
         top: 70%;
     }
-    .banner_content_text h4{
+    .banner_content_text h4,
+    .banner_content_text_new h4{
         font-size: 50px;
+        text-align:  center;
     }
     .banner_text div {
         font-size: 31px;
@@ -337,5 +347,16 @@ p{
     }
    .subscript_position input[type='email']{
         width:  280px !important;
+    }
+    .location_container .col-sm-5:nth-child(3),
+    .location_container .col-sm-4,
+    .location_container .col-sm-3 {
+        padding-left: 52px;
+    }
+    .study_panel_inner{
+        height:  auto;
+    }
+    .copyRight .col-sm-12{ 
+        text-align:  center !important;
     }
 }
