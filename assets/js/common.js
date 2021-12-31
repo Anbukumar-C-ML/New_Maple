@@ -11,5 +11,13 @@ $(function(){
 	        	$('#loadMore').show()
 	        }
 	    });  
+
+	    $(window).on("scroll", function() {
+		    if($(window).scrollTop() > $('.home_banner_bg').height()+150) {
+		        $("header .bg-light").addClass("active");
+		    } else { 
+		       $("header .bg-light").removeClass("active");
+		    }
+		});
 })
 

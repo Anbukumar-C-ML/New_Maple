@@ -152,6 +152,13 @@ nav.navbar {
     line-height: 30px;
     padding: 10px 20px;
     color:  unset;
+    font-size: 14px;
+}
+.marTop25{
+    margin-top: 25px;
+}
+.marTop40{
+    margin-top: 40px;
 }
 .navbar-light .navbar-nav li:last-child .nav-link{
     margin-left:  20px;
@@ -164,7 +171,7 @@ nav.navbar {
     border-radius: 12px;
 }
 .casestudy_panel img{
-    border-radius:  4px 4px 0px 0px;
+    border-radius:  12px 12px 0px 0px;
     width: 100%;
 }
 .study_panel_inner{
@@ -176,14 +183,18 @@ nav.navbar {
     clear: both;
     display: flex;
     overflow: hidden;
-    font-size: 15px;
+    font-size: 14px;
 }
 .contact-item-inner img{
     margin-right: 15px;
 }
+.contact-item-inner span{
+    color: #8F8F8F;
+}
 .contact-item-inner strong{
     margin-bottom: -10px;
     display: block;
+    color: #333;
     font-family: Poppins-SemiBold;
 }
 .footer_heading{
@@ -201,7 +212,16 @@ nav.navbar {
 }
 .footer_links li a{
     color:  #363636;
-    font-size:  15px;
+    font-size:  14px;
+}
+.clippath {
+   background: url('../../assets/images/header_curve.png') no-repeat;
+    position: absolute;
+    /* bottom: 34%; */
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+    padding:  20px;
 }
 .clear{
     clear: both;
@@ -265,6 +285,10 @@ nav.navbar {
 }
 .bg-light {
     background-color: #f5f7fa !important;
+}
+.bg-light.active{
+    background-color: #fff !important;
+    box-shadow: -1px 1px 12px #f7f7f7;
 }
 .width_unset{
     width: unset !important;
