@@ -14,7 +14,8 @@
   <div class="collapse navbar-collapse " id="navbarNav">
     <ul class="navbar-nav">
        {% for item in site.data.menu %}   
-        {% assign current = nil %}
+        {% assign current = nil %} 
+
        {% if page.url contains item.link %}
             {% assign current = 'active' %}
         {% endif %}

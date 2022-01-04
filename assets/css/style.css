@@ -28,11 +28,24 @@ body{
     background: #F5F7FA;
     /* position:  relative; */
 }
-.banner_content_text_new{
+
+.banner_content_text_new {
     background: #fff;
 }
-.banner_content_text_new .home_banner_inner_bg{
+.banner_content_text_new .home_banner_inner_bg,
+.case_study_banner_content .home_banner_inner_bg{
         bottom: -300px;
+}
+ 
+.case_study_banner_content h4{
+     font-size: 45px;
+    line-height: 55px;
+    color: #25373F;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    text-align: left;
+    font-family: Poppins-Light;
+    padding-bottom: 15px;
 }
 .banner_content_text_new h4{
      font-size: 69px;
@@ -43,7 +56,8 @@ body{
     font-family: Poppins-Light;
     padding-bottom: 15px;
 }
-.banner_content_text_new .banner_text div span{
+.banner_content_text_new .banner_text div span,
+.case_study_banner_content  h4 span{
     color: #ff5722;
     background:  unset;
     -webkit-text-fill-color: revert;
@@ -77,7 +91,7 @@ body{
     -webkit-text-fill-color: transparent;
 }
 .location_container{
-    padding: 20px 0px;
+    padding: 75px 0px;
 }
 
 .location_container .col-md-3{
@@ -127,12 +141,12 @@ nav.navbar {
     width: 100%;
     z-index: 10;
 }
-.new_header li:last-child a{
+#navbarNav .new_header li:last-child a{
     width: 151px;
     height: 50px;  
     background: #f2f6fb !important;
     border-radius: 6px;
-    color: #333 ;
+    color: #333 !important;
     text-align: center; 
 }
 .navbar-nav li:last-child a{
@@ -244,6 +258,10 @@ nav.navbar {
 .sectionPadding a img{
     width:  unset !important;
 }
+.case_sectionPadding h1{
+    font-weight: 600;
+    font-size: 32px;
+}
 .home_banner_bg{
     background: #F5F7FA ;
     padding: 30px 0px 125px 0px;
@@ -252,6 +270,15 @@ nav.navbar {
 }
 .home_banner_bg_new{
     background:  #fff;
+}
+.case_study_banner{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f1f8ff+0,ffffff+100 */
+background: #f1f8ff; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1f8ff 0%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f1f8ff 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f1f8ff 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
 }
 .home_banner_inner_bg{
     position: absolute;
@@ -286,7 +313,8 @@ nav.navbar {
 .bg-light {
     background-color: #f5f7fa !important;
 }
-.bg-light.active{
+.bg-light.active,
+.new_header_banner.active{
     background-color: #fff !important;
     box-shadow: -1px 1px 12px #f7f7f7;
 }
@@ -304,6 +332,7 @@ nav.navbar {
 }
 .subscribe_button_new{
     background: #ff5722;
+    color:  #fff;
     border: 1px solid #ff5722;
 }
 .subscribe_bg{
@@ -329,22 +358,121 @@ nav.navbar {
 #myList li{
     display:none;
 }
-
-
-
-
-
-
-
-
-
-
+.navbar-light .navbar-toggler
+    {
+        padding:  0px !important;
+        color:  none !important;
+        border-color: transparent !important;
+    }
+.new_header_banner{
+    background:transparent
+}
+.case_study_text{
+    color: #5CC788;
+    font-size: 16px !important;
+}
+.download_btn{
+   padding: 7px 20px;
+    border: 1px solid #FF5722;
+    background: #fff;
+    box-shadow: 0px 8px 20px rgb(228 210 205 / 40%);
+    border-radius: 6px;
+    color: #FF5722;
+    font-size: 16px !important;
+    position: relative;
+    z-index: 10;
+}
+.download_btn img{
+    position: relative;
+    top: -2px;
+    margin-right: 7px;
+}
+.case_study_padding{
+        padding: 150px 0px 50px 0px;
+}
+.challing_Section{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 50px rgba(201, 211, 226, 0.4); 
+}
+.list_item{
+    padding:  45px 0px 0px 0px;
+}
+.list_item li{
+    list-style-type:  disc;
+    margin-bottom:  10px;
+    font-size:  16px;
+    color: #444444;
+}
+.img_list{
+    padding:  0px 0px 0px 30px;
+}
+.img_list li{
+   list-style-image: url('../../assets/images/tick-orange.svg');
+    margin-bottom:  10px;
+    font-size:  16px;
+    color: #444444;
+}
+.img_list li::marker{
+    position: relative;
+    top: 5px;
+}
+.alter_row{
+    background:  #f3f4f6;
+    padding:  40px 0px;
+}
+.text-center{
+    text-align: center;
+}
+.value_delivery .col-md-3{
+    text-align:  center;
+}
+.value_delivery .col-md-3 h5{
+    font-size:  16px;
+    padding:  20px 0px;
+}
+.value_delivery .col-md-3 p{
+    font-size:  16px;
+}
+.value_delivery .col-md-3:hover{
+    box-shadow: 0px 0px 50px rgba(201, 211, 226, 0.4);
+}
+.case_sizing_section .col-md-6:first-child img{
+    width: 100%;
+}
+.case_sizing_section h4{
+    font-size: 40px;
+    line-height: 60px;
+    color: #222222;
+    font-weight:  normal;
+}
+.case_sizing_section .knowMore a{
+    color:  #FF5722;
+    font-size: 16px;
+}
+.casestudy_btn{
+    background: #333333;
+    color:  #fff;
+    padding:  5px 10px;
+}
+.case_sizing_section .col-md-6:last-child{
+    background:  #fff;
+}
+.brdTop{
+    border-top: 1px solid #ddd
+}
+.brdBottom{
+    border-bottom: 1px solid #ddd
+}
+.wid100{
+    width: 100%;
+}
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .casestudy_panel img,
     .casestudy_top_bg img,
     .sectionPadding .col-md-6 img,
     .banner_content_text .col-md-6 img,
-    .banner_content_text_new .col-md-6 img{
+    .banner_content_text_new .col-md-6 img,
+    .case_study_banner .col-md-6 img{
         width: 100%;
     }
     .casestudy_panel{
@@ -416,10 +544,12 @@ nav.navbar {
     .sectionPadding .col-md-6 img,
     .banner_content_text .col-md-6 img,
     .banner_content_text_new .col-md-6 img,
+    .case_study_banner .col-md-6 img,
     .casestudy_top_bg img{
         width:  100%;
     }
     .home_section_rightbg{
         right: 0px;
     }
+    
 }

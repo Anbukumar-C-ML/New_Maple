@@ -18,6 +18,14 @@ $(function(){
 		    } else { 
 		       $("header .bg-light").removeClass("active");
 		    }
+		// });
+		// $(window).on("scroll", function() {
+		    if($(window).scrollTop() > $('.banner_size').height()+150) {
+		    	console.log('inner')
+		        $("header .new_header_banner").addClass("active");
+		    } else { 
+		       $("header .new_header_banner").removeClass("active");
+		    }
 		});
 })
 

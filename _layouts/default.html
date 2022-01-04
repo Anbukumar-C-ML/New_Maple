@@ -7,11 +7,17 @@
  	<link rel="shortcut icon" type="image/png" href='../assets/images/favicon.png' />
 
 </head>
-	<body> 
+	<body>   
+		 
+		 
+		{% if page.url == '/pages/home.html' %}
+			{% include header.html %}
 		
-		{% include header.html %}
+		{% else %}
+			{% include header_new.html %}
+		{% endif %}
 		<section>
-			<div class="clear" style="padding-top: 65px"> 
+			<div class="clear"> 
 				{{content}}
 			</div>
 		</section>
@@ -19,9 +25,13 @@
 		<!-- 
 			include header_new.html 
 			{% include footer_new.html %} -->
-
-
-		{% include footer.html %}
+			{% if page.url == '/pages/home.html' %}
+			{% include footer.html %}
+		
+		{% else %}
+			{% include footer_new.html %}
+		{% endif %}
+ 
 
 		{% include script.html %}
 
