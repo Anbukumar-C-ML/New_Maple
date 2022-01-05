@@ -372,9 +372,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', end
     font-size: 16px !important;
 }
 .download_btn{
-   padding: 7px 20px;
+   padding: 8px 20px;
     border: 1px solid #FF5722;
     background: #fff;
+    font-family: Poppins-SemiBold;
     box-shadow: 0px 8px 20px rgb(228 210 205 / 40%);
     border-radius: 6px;
     color: #FF5722;
@@ -382,10 +383,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', end
     position: relative;
     z-index: 10;
 }
-.download_btn img{
-    position: relative;
+.download_btn img,
+.download_btn_blue img{
+    position: relative;`
     top: -2px;
     margin-right: 7px;
+}
+.download_btn_blue{
+    padding: 8px 20px;
+    background: #019AFF;
+background: -webkit-linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
+background: -moz-linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
+background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    border: 1px solid #019AFF;
+    /* background: #fff; */
+    font-family: Poppins-SemiBold;
+    box-shadow: 0px 8px 20px rgb(228 210 205 / 40%);
+    border-radius: 6px;
+    color: #019AFF;
+    font-size: 16px !important;
+    position: relative;
+    z-index: 10;
 }
 .case_study_padding{
         padding: 150px 0px 50px 0px;
@@ -412,10 +432,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', end
     font-size:  16px;
     color: #444444;
 }
-.img_list li::marker{
+.img_list li span{
     position: relative;
-    top: 5px;
+    top: -7px;
 }
+ 
 .alter_row{
     background:  #f3f4f6;
     padding:  40px 0px;
@@ -425,6 +446,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', end
 }
 .value_delivery .col-md-3{
     text-align:  center;
+        padding: 20px 0px;
 }
 .value_delivery .col-md-3 h5{
     font-size:  16px;

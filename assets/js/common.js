@@ -20,7 +20,7 @@ $(function(){
 		    }
 		// });
 		// $(window).on("scroll", function() {
-		    if($(window).scrollTop() > $('.banner_size').height()+150) {
+		    if($(window).scrollTop() > 100) {
 		    	console.log('inner')
 		        $("header .new_header_banner").addClass("active");
 		    } else { 
