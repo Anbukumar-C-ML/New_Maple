@@ -385,7 +385,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', end
 }
 .download_btn img,
 .download_btn_blue img{
-    position: relative;`
+    position: relative;
     top: -2px;
     margin-right: 7px;
 }
@@ -428,15 +428,21 @@ background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
 }
 .img_list li{
    list-style-image: url('../../assets/images/tick-orange.svg');
-    margin-bottom:  10px;
+    margin-bottom:  15px;
     font-size:  16px;
     color: #444444;
 }
 .img_list li span{
     position: relative;
-    top: -7px;
+    top: -5px;
+    left:  10px;
 }
- 
+.green_tick li{
+     list-style-image: url('../../assets/images/tick-green.svg') !important;
+}
+.blue_tick li{
+     list-style-image: url('../../assets/images/tick_blue.svg') !important;
+}
 .alter_row{
     background:  #f3f4f6;
     padding:  40px 0px;
@@ -471,6 +477,10 @@ background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
     color:  #FF5722;
     font-size: 16px;
 }
+.knowMore_blue a{
+    color:  #1F57D0;
+    font-size: 16px;
+}
 .casestudy_btn{
     background: #333333;
     color:  #fff;
@@ -487,6 +497,81 @@ background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
 }
 .wid100{
     width: 100%;
+}
+.tabContainer{
+    padding-top:  160px;
+}
+.tab_list{
+    padding:  0px 0px;
+    margin:  0px;
+    position: sticky;
+    top:100px;
+}
+.tab_list li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    line-height:  30px;
+}
+.tab_list li a{
+    font-size:  16px;
+    color:  #AAAAAA;
+}
+.tab_list li a.active{
+    font-weight:  600;
+    color: #444;
+}
+.divide_tabs{
+    padding-bottom:  50px;
+}
+.sizing_container{
+    background: #f3f9fe url('../../assets/images/challange-illustration.svg') 100% bottom no-repeat;
+    border-radius: 0px 50px 0px 0px;
+    padding: 25px 30px;
+    font-size:  16px;
+}
+.sizing_container p{
+    font-size:  16px;
+}
+.sizing_container ul {
+    padding:  0px 40px;
+    font-size:  16px;
+}
+.sizing_container ul li{
+    padding-bottom:  1px;
+}
+.sizing_content {
+    width:  80%;
+}
+.track_record{
+    border: 2px solid #F2FAFF;
+    padding:  25px 30px;
+}
+.track_record  .col-md-6{
+    color:  #444444;
+    padding-top: 15px;
+}
+.track_record  .col-md-3 h4{
+    color:  #5CC788;
+    font-weight: 600;
+    font-size: 22px;
+}
+.track_record  .col-md-3 div{
+    font-size:  13px;
+    color: #444444;
+}
+.divide_tabs p{
+    font-size:  16px;
+    color:  #444;
+}
+.divide_tabs h5{
+    font-size: 18px;
+}
+.caseStidy_blue_button{
+    background: #f0f8fe;
+    color:  #1F57D0;
+    font-size: 12px;
+    border: 0px;
+    padding: 5px 10px;
 }
 @media screen and (max-width: 767px) and (min-width: 320px) {
     .casestudy_panel img,
