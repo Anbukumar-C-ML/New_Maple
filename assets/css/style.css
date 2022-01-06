@@ -20,6 +20,7 @@
 body{
     font-family:  Poppins-Regular;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 .navbar-collapse{
 	flex-grow: inherit !important;
