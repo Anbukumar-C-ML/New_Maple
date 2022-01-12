@@ -184,6 +184,8 @@ nav.navbar {
     box-sizing: border-box;
     box-shadow: 7px 19px 22px 4px rgba(240, 241, 245, 0.8);
     border-radius: 12px;
+    position: relative;
+    z-index: 1;
 }
 .casestudy_panel img{
     border-radius:  12px 12px 0px 0px;
@@ -284,7 +286,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f8ff', end
 .home_banner_inner_bg{
     position: absolute;
     bottom: -15px;
-    margin-left: -115px;
+    margin-left: -60px;
 }
 .home_inner_container_bg{
     background: #F5F7FA url(../../assets/images/section-1-effect-below-text.svg) 0px 0px no-repeat;
@@ -617,7 +619,11 @@ background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
     } 
     .banner_text{
         text-align: center;
-        top: 70%;
+        top: 0%;
+    }
+    .banner_content_text_new .col-md-6 img{
+        height: 100%;
+        padding: 40px 0px;
     }
     .banner_content_text h4,
     .banner_content_text_new h4{
