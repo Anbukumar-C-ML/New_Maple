@@ -601,9 +601,46 @@ background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
     .sectionPadding .col-md-6 img,
     .banner_content_text .col-md-6 img,
     .banner_content_text_new .col-md-6 img,
-    .case_study_banner .col-md-6 img{
+    .case_study_banner .col-md-6 img,
+    .case_sectionPadding .col-md-5 img{
         width: 100%;
     }
+    .download_btn img,
+    .case_study_text img,
+    .download_btn_blue img{
+        width: unset !important;
+    }
+    .case_sectionPadding h1{
+        text-align: center;
+    }
+    .case_study_bg_img{
+        background: unset;
+    }
+    .case_sectionPadding .section_title{
+        line-height: 40px;
+        text-align: left;
+        font-size: 30px;
+    }
+    .case_study_banner_content h4{
+        font-size: 35px;
+        line-height: 53px;  
+        text-align: center;
+    }
+    .case_study_padding .row{
+        margin: 0px;
+    }
+    .challing_Section .row{
+        margin-left: 25px;
+    }
+    .case_study_banner_content .banner_text{
+        top: 58%;
+    }
+    .sizing_content {
+        width: 100%;
+    }
+    .tabContainer {
+        padding-top: 0px;
+    }   
     .header_icon{
         bottom: 80%;
         left: -11%;
@@ -681,7 +718,11 @@ background: linear-gradient(to right, #019AFF 0%, #1F57D0 100%);
     }
     .contact-item-inner img{
         margin-bottom: 10px;
-        
+
+    }
+    .case_sizing_section h4{
+         font-size: 35px;
+         line-height: 50px;
     }
    /* .location_container .col-sm-12:nth-child(3),
     .location_container .col-sm-12:nth-child(4),
